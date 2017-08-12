@@ -1,0 +1,46 @@
+virtualbox
+1. 
+
+Vagrant
+1. cd .vagrant.d
+2. vagrant.d$ cd boxes
+3. vagrant.d/boxes$ ls
+4. hashicorp-VAGRANTSLASH-precise64  laravel-VAGRANTSLASH-homestead
+5. vagrant.d/boxes$ rm -r laravel-VAGRANTSLASH-homestead/
+6. rename 0 menjadi 0.5.0
+7. buat metadata_url (menggunakan.txt)
+
+
+Homestead
+1. Downloads$ vagrant box add laravel/homestead homestead
+2. vagrant.d/boxes$ 
+3. vagrant.d/boxes/laravel-VAGRANTSLASH-homestead$ 
+4. ketik install homestead manualy di laravel.io
+5. lalu copy ( https://atlas.hashicorp.com/laravel/homestead ) di metada_url
+6. buka laravel.com lalu pilih laravel homestead copy ke home ( git clone https://github.com/laravel/homestead.git Homestead )
+7. cd Homestead copy bash init.sh di terminal
+8. jika terjadi error maka buka cd .ssh lalu isi 
+9. ssh-keygen -t rsa -b 4096 -C "your_email@example.com" abis itu enter ajj
+10.bash init.sh lalu enter saja
+11.vagrant up di cd Homestead lalu ketika ada error buat directory Code di Homestead
+12.lalu vagrant up lagi 
+13.vagrant ssh
+14.laravel new ( name )
+
+cara ssh homestead
+1. masuk directory cd Code
+2. lalu buat laravel new ( nama )
+4. cd home lalu ketik nano /etc/hosts lalu isi 192.168.10.10   bp.dev > nama directory laravel
+5. cd home lalu ketik nano .homestead/Homestead.yaml lalu isi 
+
+	map: bp.dev
+	to: /home/vagrant/Code/bp/public
+
+6. cd home/Homestead lalu vagrant up, vagrant provision, vagranst ssh, dan sudah masuk ssh vagrant disitu bisa install laravell new s...
+6. jika ssh ingin berhenti cd home/Homestead vagrant halt dan vagrant reboot, dan ingin memperbaiki vagrant destroy
+7. buka mozilla lalu bp.dev
+
+LINK -> http://ambercat.rahmanda.net/collections/2015/02/18/instalasi-homestead.html
+
+
+

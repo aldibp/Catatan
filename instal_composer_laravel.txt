@@ -1,0 +1,23 @@
+Composer :
+
+1.curl -sS https://getcomposer.org/installer | php
+2.php composer-setup.php
+3.mv composer.phar /usr/local/bin/composer
+4.sudo chmod -R 777 /usr/local/bin/composer
+5.composer
+
+Laravel :
+6.composer global require "laravel/installer"
+7.sudo composer global require "laravel/installer"
+8.source .bashrc (http://stackoverflow.com/questions/26376516/laravel-php-command-not-found)
+9.laravel new blog (belum jalan)
+10.sudo apt install php-zip
+11. sudo apt install php-dom
+12. sudo apt install php-mbstring
+13. sudo apt install php-mysql
+14. laravel new blog (jalankan)
+15. masuk cd blog dan ketik php artisan serve
+16. masuk mozilla dan ketik localhost:8000
+17. selesai
+
+

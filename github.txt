@@ -1,0 +1,32 @@
+MENGENAI GIT :
+-git --version
+-git init ( mulai menggunakan git )
+-git status
+-git add index.html ( untuk satu file )
+-git add . ( untuk semua file )
+-git commit -m " ini menulis messsage " ( menulis message )
+
+-git log ( detail commit )
+-git  log --oneline ( detail simple commit )
+-git diff ( memberikan info bagaimana ada tambahan/pengurangan line )
+-git checkout nama file contoh index.html ( mengembalikan posisi awal commit )
+-git checkout b4234e3d -- index.html ( pindah ke commit yang ada dan tingggal pilih )
+-git reset --mixed 1313f3r ( menghapus git sebelumnya dan di working directory tidak terhapus)
+-git redet --hard 1313f3r (menghapus semua git dan working directory sebelumnya )
+
+-git branch ( melihat branch kita ) 
+-git branch nama branch ( membuat branch baru )
+-git checkout -b nama branch ( membuat folder dan branch baru dan aktif di falder tersebut )
+-git checkout nama branch ( pindah ke branch yang lain ) 
+-git branch -D nama branch ( menghapus branch )
+-git branch -m nama branch nama baru ( mengganti nama branch ke nama yang baru )
+-git merge nama branch ( menggabungkan branch yang lain menjadi satu )    
+
+
+MENGENI GITHUB :
+-git clone github.com ( clone remote github seseorang ke lokal kita )
+-git push origin nama branch kit ( upload file ke remote repository )
+-git pull ( download/refresh file remote yang sudah di push )
+Fork ( klik fork repository seseorang otomtis akan muncul di repository kita )
+gitignore ( menyembuyikan data penting di github kita dan seseorang tidak akan bisa lihat )
+
