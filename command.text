@@ -1,0 +1,154 @@
+mkdir nama_folder 	: berfungsi untuk membuat direktori (folder) baru
+    
+ls			:Menampilkan isi direktori
+
+ls -l			: memperlihatkan  daftar file disertai dengan  atribut  seperti pemilik, permission, ukuran, dan tanggal modifikasi
+    
+ls -a			: memperlihatkan daftar file dan file tersembunyi di dalam direktori sekarang tanpa atribut apapun .
+
+ls -al			: menggabungkan opsi perintah -l dan -a untuk ls .
+    
+cd direktori_tujuan	: Berpindah direktori
+    
+cd direktori		: pindah direktori ke direktori yang berada di dalam direktori sekarang.
+    
+cd			: pindah ke direktori home.
+
+cd ~			: pindah ke direktori home.
+    
+cd ..			: pindah satu direktori ke direktori teratas atau kembali ke direktori sebelumnya.
+
+cd ../../n		: pindah n direktori sebelumnya.
+
+cd /direktori/direktori_tujuan : pindah ke direktori tanpa harus mundur ke direktori sebelumnya
+
+pwd			: Menampilkan tempat direktori yang aktif
+
+cp file_yang_akan_disalin direktori_tujuan : Menyalin file
+
+cp  file  /path/ke/direktori/direktori_tujuan  : mengkopi  file  tertentu  ke direktori tertentu
+
+cp -r folder /path/ke/direktori/direktori_tujuan : mengkopi folder tertentu secara rekursif ke direktori tertentu
+
+cp *.extension /path/ke/direktori/direktori_tujuan : mengkopi file – file yang berekstensi tertentu ke direktori tertentu
+
+cp nama* /path/ke/direktori/sesuatu :mengopi file – file yang namanya diawali dengan  ‘nama’ ke direktori tertentu.
+    
+mv file_yang_akan_dipindahkan direktori_tujuan : Memindahkan file
+
+rm file			: menghapus file
+
+rm -r folder		: menghapus folder
+
+rm -rf folder		: menghapus folder secara paksa
+
+find nama_file/folder_yang_akan_dicari : Mencari file dalam direktori
+
+clear/Utilitiy		: Membersihkan tampilan terminal
+
+reboot			: Merestart sistem
+
+login			: Untuk masuk ke sistem atau untuk berpindah user dari satu user ke user lainnya
+
+shutdown/halt/logout	: Mematikan sistem
+			catatan: halt hanya dapat digunakan ketika sedang menjadi root.
+
+alias			: Untuk membuat alias dan menampilkan alias yang sudah diset sebelumnya.
+    
+chmod			: Untuk mengganti perijinan pada file atau direktori.
+
+chown			: Mengganti kepemilikan atas file atau direktori
+
+chgrp			: Untuk mengganti grup pemilik suatu file atau direktori
+    
+lshw			: Menampilakn daftar hardware
+	catatan: perintah ini harus dijalankan sebagai super user.
+
+uptime			: Menampilkan lamanya sistem telah berjalan
+
+bc			: Menampilkan kalkulator di dalam terminal
+
+cal			: Menampilkan kalender
+
+date			: Menampilkan informasi tanggal dan waktu saat ini.
+
+du			: Menampilkan penggunaan kapasitas harddisk oleh suatu direktori.
+
+df			: Menampilkan penggunaan partisi harddisk secara keseluruhan. df –h
+
+file			: Untuk melihat tipe file.
+
+history			: Menampilkan perintah-perintah yang telah digunakan sebelumnya.
+
+init			: Untuk mengganti run level.
+
+man			: Menampilkan halaman bantuan/manual (help-page) untuk perintah yang diminta.
+
+ping			: Untuk melakukan test konektivitas/hubungan antara dua komputer dalam suatu jaringan (LAN).
+
+su			: Untuk berganti user aktif
+
+uname 			: Menampilkan informasi Sistem Operasi (distro, versi, nama mesin, dll).
+
+passwd			: Digunakan untuk mengganti password.
+
+     
+
+
+
+cat			: Perintah ini digunakan untuk menampilkan isi file kedalam bentuk palin text
+    
+wc nama_file.txt	: Menampilkan jumlah baris, jumlah kata, dan ukuran file (dalam byte) suatu file.
+    
+less			: Untuk menampilkan isi dari suatu file.
+
+tail			: Secara default menampilkan 10 baris terakhir pada suatu file.
+    
+head			: Secara default menampilkan 10 baris terakhir pada suatu file.
+
+vi			: Teks editor vi.
+
+touch			: membuat teks editor seperti notepad
+
+more			: Mempaging halaman, seperti halnya less
+
+
+   
+     
+sudo nama_perintah : Menjalankan perintah/program sebagai super user
+    
+Whoami : perintah untuk melihat user yang sedang aktif
+
+
+    
+     
+ps : Instruksi ps (process status) digunakan untuk melihat kondisi proses yang ada. PID adalah Nomor Identitas Proses, TTY adalah nama terminal dimana proses tersebut aktif, STAT berisi S (Sleeping) dan R (Running), COMMAND merupakan instruksi yang digunakan.
+    
+ps -u <user> : Mencari proses yang spesifik untuk pemakai.
+    
+ps -aux : Menampilkan proses-proses yang sedang berjalan
+
+top : Melihat proses yang sedang berjalan
+    
+htop : Melihat proses yang sedang berjalan dengan komputer interaktif
+    
+ps -eH : Menampilkan hubungan proses parent dan child
+    
+ps -eF : Menampilkan hubungan proses parent dan child serta letak prosesnya
+    
+pstree :Menampilkan semua proses pada sistem dalam bentuk hirarki parent/child
+    Menghentikan suatu proses/job
+
+    kill %<nomor job>
+    contoh : kill %1
+
+    kill <PID>
+    contoh : kill 1908
+
+    pkill <nama proses>
+    contoh : pkill firefox
+
+    pkillall <nama proses>
+    contoh : pkillall firefox
+
+
