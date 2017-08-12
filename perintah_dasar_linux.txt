@@ -1,0 +1,97 @@
+tanpa menggunakan argument - ls
+
+menggunakan argument berupa option - ls – l
+
+menggunakan argument berupa path - ls /home
+
+menggunakan argument berupa option dan path - ls -l /home
+
+Perintah untuk membuat direktori - mkdir
+	contoh : mkdir dataku
+
+Perintah untuk menghapus direktori kosong - rmdir 
+	contoh : rmdir dataku
+
+Perintah untuk mengganti waktu pembuatan suatu file - touch 
+	contoh : touch isi.txt
+
+untuk menampilkan isi file - cat 
+	contoh : cat isi.txt	
+
+Perintah ini bisa digunakan untuk menampilkan isi file teks dengan tampilan perlayar - more
+
+Berfungsi untuk mengcopy atau menduplikat file dan direktori - cp
+	contoh : cp nama_file_asal nama_file_hasil
+
+Perintah untuk memindahkan file dan direktori - mv
+	contoh :mv nama_file nama_file_baru
+		mv nama_file direktori_tujuan
+
+Untuk menghapus (remove) file atau direktori - rm
+	contoh : rm nama_file
+
+Untuk mengextract file yang di kompres, file-file yang berekstensi .tar.gz atau .tar.bz2
+	contoh : tar -xzvf wordpress-2.3.3.tar.gz
+
+Perintah ini digunakan untuk mengekstrak file yang di kompress yang berekstensi .zip
+	contoh : unzip Joomla_1.0.13-Stable-Full_Package.zip
+
+Apabila anda ingin menampilkan isi file teks secara urut. Gunakan perintah ini - sort
+	contoh : sort option nama_file
+
+Menginstall Paket Red Hat
+	contoh :rpm -ivh AdobeReader_enu-7.0.8-1.i386.rpm
+Menghapus Paket Red Hat
+	contoh :rpm -e AdobeReader_enu
+
+Manajemen Paket Debian
+	contoh : dpkg -i acroread_7.0.1-0.0.ubuntu1_i386.deb
+Menghapus Paket Debian
+	contoh : dpkg -r acroread
+
+Manajemen Paket Slackware
+	contoh : installpkg bittorrent-4.4.0-noarch-1.tgz
+Menghapus Paket Slackware
+	contoh : removepkg bittorrent-4.4.0-noarch-1.tgz
+
+Perintah di vim
+
+	:w	> menyimpan file
+	:wq	> menyimpan dan keluar dari vim
+	:q!	> keluar (paksa) dari vim tanpa melakukan penyimpanan
+	:q	> keluar dari vim
+	h	> pindah satu karakter ke kiri
+	j	> pindah satu baris ke bawah
+	k	> pindah satu baris ke atas
+	ctrl d	> menggulung setengah halaman ke bawah
+	ctrl u	> menggulung setengah halaman ke atas
+	ctrl f	> menggulung satu halaman ke bawah
+	ctrl b	> menggulung satu halaman ke atas
+	:0	> pindah ke awal file
+	:$	> pindah ke akhir file
+	w	> pindah ke awal kata berikutnya
+	)	> pindah ke akhir kalimat
+	(	> pindah ke awal kalimat
+	}	> pindah ke akhir paragraf
+	{	> pindah ke awal paragraf
+	x	> menghapus karakter yang ada di kursor
+	X	> menghapus karakter sebelum kursor
+	<n>dd	> Menghapus <n> baris dimulai dengan baris pada posisi kursor
+	d<n>w	> Menghapus <n> kata dimulai dari kata pada posisi kursor
+	Y	> copy baris pada posisi kursor ke dalam “buffer”
+	<n>yy	> copy <n> baris dimulai dari posisi kursor
+	P	> paste isi yang ada pada “buffer” ke posisi setelah kursor
+	p	> paste isi yang ada pada “buffer” ke posisi setelah kursor	
+	/kata	> mencari kata yang ada setelah posisi kursor (maju)	
+	?kata	> mencari kata yang ada sebelum posisi kursor (mundur)
+	a	> penyisipan setelah kursor
+	i	> penyisipan pada posisi kursor
+	o	> penyisipan satu baris kebawah
+	O	> penyisipan satu baris keatas
+	u	> undo (pembatalan) perubahan terakhir
+	ctrl g	> menampilkan nama file dan baris kursor
+
+
+	
+
+

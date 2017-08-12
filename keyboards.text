@@ -1,0 +1,78 @@
+keyboard shortcut pada Umumnya:
+
+Ctrl + A = Select all
+Ctrl + C = mengkopi bagian yang sudah di tandai ke clipboard
+Ctrl + V = menyalin konten clipboard
+Ctrl + N = membuat dokumen baru, bukan di terminal
+Ctrl + O = membuka dokumen
+Ctrl + S = menyimpan dokumen yang aktif
+Ctrl + P = mencetak dokumen yang aktif
+Ctrl + W = menutup dokumen terbuka yang tidak aktif
+Ctrl + Q = keluar dari aplikasi yang sedang aktif
+
+Keyboard shortcuts Untuk Terminal :
+
+Ctrl + A = memindahkan kursor ke baris pertama
+Ctrl + E = memindahkan kursor ke baris terakhir
+Ctrl + C = menghentikan proses aktif
+Ctrl + Z = mengimim ke belakang background proses yang sedang aktif
+Ctrl + D = keluar
+Ctrl + R = mencari perintah sebelumnya yang cocok dengan kata kunci yang di masukkan
+Ctrl + U = menghapus baris yang sedang aktif
+Ctrl + K = menghapus perintah dari kursor sebelah kanan
+Ctrl + W = menghapus kata sebelum kursor
+Ctrl + L = menghapus/membersihkan terminal
+Shift + Ctrl + C = mengkopi bagian yang ditandai ke clipboard
+Shift + Ctrl + V (or Shift + Insert) = menyalin bagian yang ditandai ke clipboard
+Alt + F = maju satu kata
+Alt + B = mundur satu kata
+Arrow Up/Down = mencari perintah sebelumnya
+Shift + PageUp / PageDown = memperlihatkan hasil dari terminal
+
+Keyboard shortcuts untuk GNOME desktop :
+
+Ctrl + Alt + F1 = pindah ke terminal virtual yang pertama
+Ctrl + Alt + F2(F3)(F4)(F5)(F6) = memilih terminal virtual yang berbeda
+Ctrl + Alt + F7 = kembali ke terminal yang aktif sebelumnya yang mempunyai session X
+Ctrl + Alt + Backspace = mengaktifkan kembali GNOME
+Alt + Tab = pertukaran antar program
+Ctrl + Alt + L = mengkunci layar
+Alt + F1 = membuka pilihan aplikasi
+Alt + F2 = membuka kotak dialog pada aplikasi yang sedang berjalan
+Alt + F3 = membuka Deskbar Applet
+Alt + F4 = menutup jendela yang sedang terbuka
+Alt + F5 = memperkecil layar pada jendela yang sedang aktif
+Alt + F7 = memindahkan jendela yang sedang aktif
+Alt + F8 = mengatur ukuran pada jendela yang sedang aktif
+Alt + F9 = mengecilkan ukuran pada jendela yang sedang aktif
+Alt + F10 = membesarkan ukuran pada jendela yang sedang aktif
+Alt + Space = membuka jendela menu
+Ctrl + Alt + + = mengganti resolusi ke resolusi setelah X
+Ctrl + Alt + – = mengganti resolusi ke resolusi sebelum X
+Ctrl + Alt + Left/Right = pindah ke lembar kerja setelah/sebelumnya
+
+Keyboard shortcut Untuk Nautilus :
+
+Shift + Ctrl + N = membuat folder baru
+Ctrl + T = menghapus file terpilih ke tempat sampah
+Alt + ENTER = memperlihatkan properties file atau folder
+Ctrl + 1 = mengubah tampilan menjadi icon
+Ctrl + 2 = mengubah tampilan menjadi list
+Shift + Right = membuka direktori
+Shift + Left = menutup direktori
+Ctrl + S = Select Pattern
+F2 = mengubah nama file
+Ctrl + A = memilih semua file atau folder
+Ctrl + W = menutup jendela
+Ctrl + Shift + W = menutup semua jendela nautilus
+Ctrl + R = mengisi ulang jendela nautilus
+Alt + Up = Membuka Parent Directory
+Alt + Left = kembali
+Alt + Right = selanjutnya
+Alt + Home = pergi ke folder home
+Ctrl + L = pergi ke bar lokasi
+F9 = memperlihatkan panel sisi
+Ctrl + H = perlihatkan file tersembunyi
+Ctrl + + = Zoom In
+Ctrl + – = Zoom Out
+Ctrl + 0 = Normal Size
