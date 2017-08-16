@@ -1,0 +1,73 @@
+					
+			Database pada terminal 
+
+Buat database :
+
+1. mysql -u root -p
+2. show databases;
+3. CREATE DATABASE "nama databasenya";
+4. use "nama databasenya";
+
+Buat table :
+
+5. SHOW TABLES;
+6. CREATE TABLE "nama tablenya" (id INT AUTO_INCREMENT PRIMARY KEY, nama VARCHAR(20));
+7. describe "nama tablenya"
+
+Buat count, order by, asc, desc :
+
+8. SELECT * FROM "nama table" WHERE nama='hilman' AND alamat='magetan';
+9. SELECT * FROM data WHERE umur<13;
+10.SELECT COUNT(*) FROM "nama tablenya"; 
+11.SELECT * FROM "nama tablenya" ORDER BY umur;
+12.SELECT * FROM "nama tablenya" ORDER BY umur DESC;
+13.SELECT * FROM "nama tablenya" ORDER BY alamat;
+14.SELECT * FROM "nama tablenya" ORDER BY alamat DESC;
+
+Buat delete dan drop :
+
+15.DELETE FROM "nama tablenya" WHERE id=2;
+16.SELECT FROM "nama tablenya";
+17.ALTER TABLE "nama tablenya" DROP alamat;
+18.SELECT FROM "nama tablenya";
+19.DROP TABLE "nama tablenya";
+
+Buat Edit data :
+
+20.UPDATE "nama tablenya" SET umur=10 WHERE id=2;
+21.SELECT FROM "nama tablenya";
+22.UPDATE "nama tablenya" SET umur=11, nama='aldi' WHERE id=2;
+23.SELECT FROM "nama tablenya";
+
+Buat Like :
+
+24.SELECT * FROM "nama tablenya" WHERE nama LIKE '%ldi%';
+25.SELECT * FROM "nama tablenya" WHERE nama LIKE '%aldi%';
+26.SELECT * FROM "nama tablenya" WHERE nama LIKE '%al%';
+
+Buat memasukkan data :
+
+27.INSERT INTO "nama tablenya" (data, alamat) VALUES ('aldi', 'cisoka');
+28.describe "nama tablenya";
+29.ALTER TABLE "nama tablenya" ADD VARCHAR(20) NOT NULL;
+30.describe "nama tablenya";
+
+Buat Select :
+
+31.SELECT * FROM "nama tablenya";
+32.SELECT id FROM "nama tablenya"; 
+33.SELECT id,nama FROM "nama tablenya";
+
+Buat WHERE, And, OR :
+
+34.SELECT id,nama FROM "nama tablenya";
+35.SELECT * FROM "nama tablenya" WHERE id=2;
+36.SELECT * FROM "nama tablenya" WHERE nama='aldi';
+37.SELECT * FROM "nama tablenya" WHERE alamat='cisoka';
+38.SELECT * FROM "nama tablenya" WHERE nama='aldi' OR 'nama=endy';
+39.SELECT * FROM "nama tablenya" WHERE nama='aldi' AND 'nama=endy';
+
+
+
+
+
