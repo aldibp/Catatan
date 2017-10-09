@@ -1,0 +1,38 @@
+
+		ketikan pada sublime 3:
+
+	1. ( tab ) memudahkan dalam mengetik
+	2. ( ctrl k,b ) menghilangkan menu yang ada di samping
+	3. ( ctrl + ctrl - ) untuk membesar dan mengecilkan teks
+	4. ( ctrl / ) memberikan komentar
+	5. ( tekan ctrl dan taruh kurson di tempat lain ) ini adalah multiple kursor dimana dapat mengetik teks tergantung kursor
+	6. ( ctrl d ) menyeleksi teks // no 9
+	7. ( ctrl u ) undo seleksi teks // no 9
+	8. ( esc ) meyelesaikan seleksi teks // no 9
+	9. ( alt f3 ) meyeleksi semua teks yang akan dirubah
+	10. ( ctrl shift d ) duplikat atau copypaste
+	11. ( ctrl shift k ) mendelete duplikat atau copypaste pada satu baris
+	12. ( ctrl shift atas/bawah ) untuk memindahkan baris teks ke atas atau bawah
+	13. ( blok teks + tab atau ctrl ] ) untuk membuka dalam merapihkan teks
+	14. ( blok teks + shift tab atau ctrl [ ) untuk menutup dalam merapihkan teks
+	15. ( ctrl shift p ) comment untuk memudahkan pekerjaan 
+	16. ( ctrl p ) berpindah ke file lain	
+	17. ( @ nama method ) pindah ke method 
+	18. ( ctrl alt a ) merapihkan teks pada php dan css
+	19. ( alt shift 3 ) membuat 3 kolom untuk teks editor
+	20. ( ctrl 1 ) pindah ke kolom 1
+	21. ( ctrl tab ) pindah ke beberapa file
+
+
+
+	wbond.net = plugin sublime teks
+	
+	emmet.io = plugin 
+
+	colorpicker = plugin color untuk css ( ctrl shift c ) 
+
+	colorhightlight = plugin css ada garis bawah
+
+	sidebar Enhancement = plugin side
+
+		

@@ -1,0 +1,18 @@
+
+*sebelum deploy harus install heroku dan daftar ke heroku*
+
+caranya :
+	
+	1. laravel new laravel-heroku
+	2. cd laravel-heroku	
+	3. heroku login (masukkan gmail dan password heroku)
+	4. touch procfile "web: vendor/bin/heroku-php-apache2 public"
+	5. git init
+	6. gi add.
+	7. git commit -m 'initial commit'
+	8. heroku create --builpack https://github.com/heroku/heroku-buildpack-php
+	9. dan terakhir : php artisan key generate
+	10. heroku config:set APP_KEY=coppaste key generate
+	11. git push heroku master
+	12. heroku open dan silhkan liat di tampian browser pada url (refresh)
+	

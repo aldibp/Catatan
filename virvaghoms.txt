@@ -31,7 +31,7 @@ cara ssh homestead
 1. masuk directory cd Code
 2. lalu buat laravel new ( nama )
 4. cd home lalu ketik nano /etc/hosts lalu isi 192.168.10.10   bp.dev > nama directory laravel
-5. cd home lalu ketik nano .homestead/Homestead.yaml lalu isi 
+5. cd home lalu ketik nano . Homestead/Homestead.yaml lalu isi 
 
 	map: bp.dev
 	to: /home/vagrant/Code/bp/public
