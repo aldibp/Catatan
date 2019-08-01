@@ -23,10 +23,22 @@ MENGENAI GIT :
 -git merge nama branch ( menggabungkan branch yang lain menjadi satu )    
 
 
-MENGENI GITHUB :
+MENGENAI GITHUB :
 -git clone github.com ( clone remote github seseorang ke lokal kita )
--git push origin nama branch kit ( upload file ke remote repository )
+-git push -u origin nama branch kit ( upload file ke remote repository )
 -git pull ( download/refresh file remote yang sudah di push )
 Fork ( klik fork repository seseorang otomtis akan muncul di repository kita )
 gitignore ( menyembuyikan data penting di github kita dan seseorang tidak akan bisa lihat )
 
+
+============================================================================================
+
+echo "# porpos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/aldibp/porpos.git
+git push -u origin master
+
+git remote add origin https://github.com/aldibp/porpos.git
+git push -u origin mast
